@@ -12,7 +12,7 @@ void bubbleSort(vector<int>& v) {
                 swapped = true;
             }
         }
-        if (!swapped) break;  // If no swapping occurred, array is sorted
+        if (!swapped) break; 
     }
 }
 
@@ -24,7 +24,7 @@ int main() {
     v.push_back(2);
     v.push_back(8);
     bubbleSort(v);
-    for (auto i : v)
+    for (int i : v)
         cout << i << " ";
     return 0;
 }
